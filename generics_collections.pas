@@ -9,14 +9,8 @@ interface
 
 uses
   Generics.Collections, Generics.Defaults, Generics.Hashes, Generics.Helpers, 
-  Generics.MemoryExpanders, Generics.Strings, LazarusPackageIntf;
+  Generics.MemoryExpanders, Generics.Strings;
 
 implementation
 
-procedure Register;
-begin
-end;
-
-initialization
-  RegisterPackage('generics_collections', @Register);
 end.
